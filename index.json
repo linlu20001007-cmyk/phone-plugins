@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "deepwiki",
+      "name": "DeepWiki",
+      "author": "Cognition",
+      "version": "1.0.0",
+      "description": "查询公开 GitHub 项目的说明，与角色一起了解感兴趣的开源工具。",
+      "icon": "book",
+      "homepage": "https://docs.devin.ai/work-with-devin/deepwiki-mcp",
+      "minAppVersion": "v2026.10.25.1",
+      "type": "mcp",
+      "url": "https://mcp.deepwiki.com/mcp",
+      "auth": "none",
+      "permissions": [
+        "把本次查询发送给 DeepWiki，不主动读取完整聊天记录。"
+      ],
+      "reviewed": false
+    }
+  ]
+}
